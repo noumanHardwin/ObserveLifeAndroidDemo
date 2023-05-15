@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.observelifedemo.LoginFragment"
+        android:name="com.observelifedemo.fragments.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/signupFragment"
-        android:name="com.observelifedemo.SignupFragment"
+        android:name="com.observelifedemo.fragments.SignupFragment"
         android:label="fragment_signup"
         tools:layout="@layout/fragment_signup" />
     <fragment
         android:id="@+id/resetPasswordFragment"
-        android:name="com.observelifedemo.ResetPasswordFragment"
+        android:name="com.observelifedemo.fragments.ResetPasswordFragment"
         android:label="fragment_reset_password"
         tools:layout="@layout/fragment_reset_password" >
         <action
