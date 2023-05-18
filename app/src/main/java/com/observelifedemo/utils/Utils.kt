@@ -26,4 +26,13 @@ class Utils {
         }
     }
 
+    fun validatePassword(password: String) = when{
+        password.isBlank() -> {
+            "Password is required"
+        }
+        else -> {
+            "Valid Password"
+        }
+    }
+
 }
